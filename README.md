@@ -8,7 +8,7 @@ This is a complete, end-to-end data analysis project that starts from ingesting 
 
 The project follows a modern **Medallion Architecture** to ensure data quality and separation of concerns at different stages:
 
-![Project Architecture](images\WhatsApp Image 2025-10-31 at 17.46.23_2f20acdc.jpg)
+![Project Architecture](images/pipeline.jpg)
 
 1.  **Data Source:** Data from OLTP SQL Server databases and various APIs.
 2.  **Data Ingestion:** Using **Azure Data Factory** to pull raw data.
@@ -30,7 +30,7 @@ A 3-page interactive dashboard was built to tell the complete data story.
 
 A high-level overview of the most important Key Performance Indicators (KPIs).
 
-![Executive Summary](images\Screenshot 2025-10-31 174953.png)
+![Executive Summary](images/summary.png)
 
 * **Total Sales:** 178K.
 * **Total Customers:** 27 unique customers.
@@ -41,7 +41,7 @@ A high-level overview of the most important Key Performance Indicators (KPIs).
 
 An interactive page to understand *what* each customer segment is buying.
 
-![Product Deep Dive](images\Screenshot 2025-10-31 175024.png)
+![Product Deep Dive](images/customer_tier.png)
 
 * **Categories:** "Electronics" is the most dominant category by sales.
 * **Products:** The "Smartwatch" is the single best-selling product.
@@ -51,7 +51,7 @@ An interactive page to understand *what* each customer segment is buying.
 
 Analyzing the performance of each store and, more importantly, the *quality* of customers each store attracts.
 
-![Store Performance](images\Screenshot 2025-10-31 175101.png)
+![Store Performance](images/stores.png)
 
 **⭐ The Project's Key Storytelling Insight:**
 
